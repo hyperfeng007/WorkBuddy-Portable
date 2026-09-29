@@ -1,0 +1,8 @@
+# Preserve exact distributed source/resource/script bytes across Windows clones.
+* -text
+*.exe binary
+*.dll binary
+*.syso binary
+*.png binary
+*.ico binary
+*.zip binary

@@ -1,0 +1,162 @@
+PE checksum   : 1FA61E37
+
+Signature Index: 0  (Primary Signature)
+
+Message digest algorithm  : SHA256
+Current message digest    : C728E07E6044B55BF361B5B8671076444483673D7A8F376D6E98CC3DDD587400 
+Calculated message digest : C728E07E6044B55BF361B5B8671076444483673D7A8F376D6E98CC3DDD587400 
+
+Signer's certificate:
+	------------------
+	Signer #0:
+		Subject: /jurisdictionC=CN/jurisdictionST=Guangdong Province/jurisdictionL=Shenzhen/businessCategory=Private Organization/serialNumber=9144030071526726XG/C=CN/ST=Guangdong Province/L=Shenzhen/O=Tencent Technology (Shenzhen) Company Limited/CN=Tencent Technology (Shenzhen) Company Limited
+		Issuer : /C=US/O=DigiCert, Inc./CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+		Serial : 0EC3880864ADEB96CAFC6AABAFDA1F94
+		Certificate expiration date:
+			notBefore : Oct 14 00:00:00 2025 GMT
+			notAfter : Oct 19 23:59:59 2028 GMT
+
+Message digest algorithm: SHA256
+
+Authenticated attributes:
+	Microsoft Individual Code Signing purpose
+	Message digest: ACF0A02947D1FB5CF90A60003170BE979E205D67884D75506246387ADE7DFB2C 
+
+Countersignatures:
+	Timestamp time: Sep 21 12:38:36 2026 GMT
+	Signing time: Sep 21 12:38:36 2026 GMT
+	Hash Algorithm: sha256
+	Issuer: /C=US/O=DigiCert, Inc./CN=DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1
+	Serial: 084FDC334F7E454EDBC30F8FF9921835
+
+CAfile: /etc/ssl/certs/ca-certificates.crt
+TSA's certificates file: /etc/ssl/certs/ca-certificates.crt
+
+Timestamp verified using:
+	------------------
+	Signer #2:
+		Subject: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Trusted Root G4
+		Issuer : /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Trusted Root G4
+		Serial : 059B1B579E8E2132E23907BDA777755C
+		Certificate expiration date:
+			notBefore : Aug  1 12:00:00 2013 GMT
+			notAfter : Jan 15 12:00:00 2038 GMT
+
+	------------------
+	Signer #1:
+		Subject: /C=US/O=DigiCert, Inc./CN=DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1
+		Issuer : /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Trusted Root G4
+		Serial : 0DC7AC5705FF21992E4043220C3A4986
+		Certificate expiration date:
+			notBefore : May  7 00:00:00 2025 GMT
+			notAfter : Jan 14 23:59:59 2038 GMT
+
+	------------------
+	Signer #0:
+		Subject: /C=US/O=DigiCert, Inc./CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1
+		Issuer : /C=US/O=DigiCert, Inc./CN=DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1
+		Serial : 084FDC334F7E454EDBC30F8FF9921835
+		Certificate expiration date:
+			notBefore : Aug  5 00:00:00 2026 GMT
+			notAfter : Nov  4 23:59:59 2037 GMT
+
+TSA's CRL distribution point: http://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl
+Connecting to http://crl3.digicert.com/DigiCertTrustedG4TimeStampingRSA4096SHA2562025CA1.crl
+
+Certificate Revocation List verified using:
+	------------------
+	Signer #2:
+		Subject: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Trusted Root G4
+		Issuer : /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Trusted Root G4
+		Serial : 059B1B579E8E2132E23907BDA777755C
+		Certificate expiration date:
+			notBefore : Aug  1 12:00:00 2013 GMT
+			notAfter : Jan 15 12:00:00 2038 GMT
+
+	------------------
+	Signer #1:
+		Subject: /C=US/O=DigiCert, Inc./CN=DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1
+		Issuer : /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Trusted Root G4
+		Serial : 0DC7AC5705FF21992E4043220C3A4986
+		Certificate expiration date:
+			notBefore : May  7 00:00:00 2025 GMT
+			notAfter : Jan 14 23:59:59 2038 GMT
+
+	------------------
+	Signer #0:
+		Subject: /C=US/O=DigiCert, Inc./CN=DigiCert SHA256 RSA4096 Timestamp Responder 2026 1
+		Issuer : /C=US/O=DigiCert, Inc./CN=DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1
+		Serial : 084FDC334F7E454EDBC30F8FF9921835
+		Certificate expiration date:
+			notBefore : Aug  5 00:00:00 2026 GMT
+			notAfter : Nov  4 23:59:59 2037 GMT
+
+Timestamp Server Signature CRL verification: ok
+Timestamp serial number: D511776E236FE446C4E682206BB4E82D
+
+Timestamp Server Signature verification: ok
+Signature verification time: Sep 21 12:38:36 2026 GMT
+Signing certificate chain verified using:
+	------------------
+	Signer #2:
+		Subject: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Trusted Root G4
+		Issuer : /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Trusted Root G4
+		Serial : 059B1B579E8E2132E23907BDA777755C
+		Certificate expiration date:
+			notBefore : Aug  1 12:00:00 2013 GMT
+			notAfter : Jan 15 12:00:00 2038 GMT
+
+	------------------
+	Signer #1:
+		Subject: /C=US/O=DigiCert, Inc./CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+		Issuer : /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Trusted Root G4
+		Serial : 08AD40B260D29C4C9F5ECDA9BD93AED9
+		Certificate expiration date:
+			notBefore : Apr 29 00:00:00 2021 GMT
+			notAfter : Apr 28 23:59:59 2036 GMT
+
+	------------------
+	Signer #0:
+		Subject: /jurisdictionC=CN/jurisdictionST=Guangdong Province/jurisdictionL=Shenzhen/businessCategory=Private Organization/serialNumber=9144030071526726XG/C=CN/ST=Guangdong Province/L=Shenzhen/O=Tencent Technology (Shenzhen) Company Limited/CN=Tencent Technology (Shenzhen) Company Limited
+		Issuer : /C=US/O=DigiCert, Inc./CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+		Serial : 0EC3880864ADEB96CAFC6AABAFDA1F94
+		Certificate expiration date:
+			notBefore : Oct 14 00:00:00 2025 GMT
+			notAfter : Oct 19 23:59:59 2028 GMT
+
+CRL distribution point: http://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl
+Connecting to http://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl
+
+Certificate Revocation List verified using:
+	------------------
+	Signer #2:
+		Subject: /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Trusted Root G4
+		Issuer : /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Trusted Root G4
+		Serial : 059B1B579E8E2132E23907BDA777755C
+		Certificate expiration date:
+			notBefore : Aug  1 12:00:00 2013 GMT
+			notAfter : Jan 15 12:00:00 2038 GMT
+
+	------------------
+	Signer #1:
+		Subject: /C=US/O=DigiCert, Inc./CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+		Issuer : /C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert Trusted Root G4
+		Serial : 08AD40B260D29C4C9F5ECDA9BD93AED9
+		Certificate expiration date:
+			notBefore : Apr 29 00:00:00 2021 GMT
+			notAfter : Apr 28 23:59:59 2036 GMT
+
+	------------------
+	Signer #0:
+		Subject: /jurisdictionC=CN/jurisdictionST=Guangdong Province/jurisdictionL=Shenzhen/businessCategory=Private Organization/serialNumber=9144030071526726XG/C=CN/ST=Guangdong Province/L=Shenzhen/O=Tencent Technology (Shenzhen) Company Limited/CN=Tencent Technology (Shenzhen) Company Limited
+		Issuer : /C=US/O=DigiCert, Inc./CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+		Serial : 0EC3880864ADEB96CAFC6AABAFDA1F94
+		Certificate expiration date:
+			notBefore : Oct 14 00:00:00 2025 GMT
+			notAfter : Oct 19 23:59:59 2028 GMT
+
+Signature CRL verification: ok
+Signature verification: ok
+
+Number of verified signatures: 1
+Succeeded

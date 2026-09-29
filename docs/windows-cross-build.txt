@@ -1,0 +1,16 @@
+PASS: Linux/Windows vet, Windows test cross-compilation, Windows x64 launcher, byte-identical rebuild.
+NOT RUN: native Windows tests, authenticated account/agent task acceptance.
+../WorkBuddy-Portable.exe: go1.26.1
+	path	wbp-portable
+	mod	wbp-portable	(devel)	
+	dep	golang.org/x/net	v0.51.0	h1:94R/GTO7mt3/4wIKpcR5gkGmRLOuE/2hNGeWq/GBIFo=
+	dep	golang.org/x/sys	v0.42.0	h1:omrd2nAlyT5ESRdCLYdm3+fMfNFE/+Rf4bDIQImRJeo=
+	dep	golang.org/x/text	v0.34.0	h1:oL/Qq0Kdaqxa1KbNeMKwQq0reLCCaFtqu2eNuSeNHbk=
+	build	-buildmode=exe
+	build	-compiler=gc
+	build	-trimpath=true
+	build	CGO_ENABLED=0
+	build	GOARCH=amd64
+	build	GOOS=windows
+	build	GOAMD64=v1
+f4e443f3bca0fe0e2b473c3004b26c5bd0a3eecc390d9f0999d0e059c3220e28  ../WorkBuddy-Portable.exe

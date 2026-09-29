@@ -1,0 +1,15 @@
+✔ Electron authenticates only its bridge, exclusively; no credentials sent to origin login (1.396529ms)
+✔ later proxy changes and new partitions remain launcher-owned (0.304144ms)
+﹣ actual patched PAC resolver retains authentication without exposing it in the PAC rule (0.126693ms) # SKIP
+﹣ actual proxy settings service rejects before persistence or host application (0.114163ms) # SKIP
+﹣ actual Windows updater entry points cannot spawn/install the official installer (1.075215ms) # SKIP
+✔ desktop update request is nonce-bound, uses launcher, and keeps mandatory-upgrade metadata (252.012307ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 3
+ℹ todo 0
+ℹ duration_ms 307.709166
+PASS: awaited ESM bootstrap, synchronous daemon-compatible network setup, Unicode paths, no pre-ready deadlock, host hooks suppressed, splash ignored, ready nonce correct

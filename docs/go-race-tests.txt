@@ -1,0 +1,78 @@
+=== RUN   TestConfigurationEncodings
+=== RUN   TestConfigurationEncodings/UTF8
+=== RUN   TestConfigurationEncodings/UTF8-BOM
+=== RUN   TestConfigurationEncodings/UTF16-LE-BOM
+=== RUN   TestConfigurationEncodings/UTF16-BE-BOM
+--- PASS: TestConfigurationEncodings (0.00s)
+    --- PASS: TestConfigurationEncodings/UTF8 (0.00s)
+    --- PASS: TestConfigurationEncodings/UTF8-BOM (0.00s)
+    --- PASS: TestConfigurationEncodings/UTF16-LE-BOM (0.00s)
+    --- PASS: TestConfigurationEncodings/UTF16-BE-BOM (0.00s)
+=== RUN   TestMalformedConfigurationEncodingRejected
+--- PASS: TestMalformedConfigurationEncodingRejected (0.00s)
+=== RUN   TestWindowsLengthCountsUTF16NotUTF8
+--- PASS: TestWindowsLengthCountsUTF16NotUTF8 (0.00s)
+=== RUN   TestDesktopCrashNeverReportedAsSuccess
+--- PASS: TestDesktopCrashNeverReportedAsSuccess (0.00s)
+=== RUN   TestNativeFetchUsesLauncherProxy
+=== RUN   TestNativeFetchUsesLauncherProxy/baseline-1
+    network_integration_test.go:172: PASS: actual bundled Undici 6.25, native fetch, authenticated launcher CONNECT, trusted extra CA, decompressed JSON, loopback bypass and caller dispatcher preservation
+        
+=== RUN   TestNativeFetchUsesLauncherProxy/baseline-0
+    network_integration_test.go:172: PASS: actual bundled Undici 6.25, native fetch, authenticated launcher CONNECT, trusted extra CA, decompressed JSON, loopback bypass and caller dispatcher preservation
+        
+--- PASS: TestNativeFetchUsesLauncherProxy (0.53s)
+    --- PASS: TestNativeFetchUsesLauncherProxy/baseline-1 (0.30s)
+    --- PASS: TestNativeFetchUsesLauncherProxy/baseline-0 (0.22s)
+=== RUN   TestNativeFetchCompressedHTTP2Endpoint
+=== RUN   TestNativeFetchCompressedHTTP2Endpoint/baseline-0
+    network_integration_test.go:172: PASS: actual bundled Undici 6.25, native fetch, authenticated launcher CONNECT, trusted extra CA, decompressed JSON, loopback bypass and caller dispatcher preservation
+        
+--- PASS: TestNativeFetchCompressedHTTP2Endpoint (0.21s)
+    --- PASS: TestNativeFetchCompressedHTTP2Endpoint/baseline-0 (0.21s)
+=== RUN   TestNativeTLSVerificationIsNotDisabled
+=== RUN   TestNativeTLSVerificationIsNotDisabled/baseline-reject
+2026/09/26 14:14:23 http: TLS handshake error from 127.0.0.1:42106: EOF
+    network_integration_test.go:172: PASS: untrusted certificate rejected; TLS verification intact
+        
+--- PASS: TestNativeTLSVerificationIsNotDisabled (0.21s)
+    --- PASS: TestNativeTLSVerificationIsNotDisabled/baseline-reject (0.20s)
+=== RUN   TestCLIProxyAuthenticationRegression
+=== RUN   TestCLIProxyAuthenticationRegression/baseline-cli-headless
+    network_integration_test.go:172: REPRODUCED codebuddy-headless.js: original CLI PAC priority drops env credentials -> real bridge 407
+        PASS codebuddy-headless.js: Go-patched CLI resolver -> authenticated bridge/upstream CONNECT -> TLS target 200; wrong token still rejected, sync resolver and loopback preserved
+        
+=== RUN   TestCLIProxyAuthenticationRegression/baseline-cli-lite
+    network_integration_test.go:172: REPRODUCED codebuddy-lite-wb.mjs: original CLI PAC priority drops env credentials -> real bridge 407
+        PASS codebuddy-lite-wb.mjs: Go-patched CLI resolver -> authenticated bridge/upstream CONNECT -> TLS target 200; wrong token still rejected, sync resolver and loopback preserved
+        
+--- PASS: TestCLIProxyAuthenticationRegression (1.78s)
+    --- PASS: TestCLIProxyAuthenticationRegression/baseline-cli-headless (0.15s)
+    --- PASS: TestCLIProxyAuthenticationRegression/baseline-cli-lite (0.14s)
+=== RUN   TestDesktopUpdateCheckUsesLauncherClient
+--- PASS: TestDesktopUpdateCheckUsesLauncherClient (0.00s)
+=== RUN   TestProxyValidation
+--- PASS: TestProxyValidation (0.00s)
+=== RUN   TestSafePaths
+--- PASS: TestSafePaths (0.00s)
+=== RUN   TestBridgeHTTPAndAuth
+--- PASS: TestBridgeHTTPAndAuth (0.00s)
+=== RUN   TestBridgeHTTPSConnect
+--- PASS: TestBridgeHTTPSConnect (0.01s)
+=== RUN   TestBridgeChainedHTTPProxy
+--- PASS: TestBridgeChainedHTTPProxy (0.01s)
+=== RUN   TestAsarEmptyEntries
+--- PASS: TestAsarEmptyEntries (0.00s)
+=== RUN   TestProxyFailureDoesNotGoDirect
+--- PASS: TestProxyFailureDoesNotGoDirect (0.00s)
+=== RUN   TestWorkBuddyFeed
+--- PASS: TestWorkBuddyFeed (0.00s)
+=== RUN   TestOfficialWorkBuddyAdaptation
+    workbuddy_test.go:276: complete runtime layout validated, same-version local record reused, mismatch/traversal rejected, original installer cache verified; real ASAR patched, 10 JS modules syntax checked (including both real CLI bundles), credential/force-upgrade modules preserved, native fuses unchanged, unsigned EXE integrity metadata rebound
+--- PASS: TestOfficialWorkBuddyAdaptation (34.66s)
+=== RUN   TestPatchAnchorsFailClosed
+--- PASS: TestPatchAnchorsFailClosed (0.00s)
+=== RUN   TestReviewedCacheRepairDoesNotFetchFeed
+--- PASS: TestReviewedCacheRepairDoesNotFetchFeed (0.88s)
+PASS
+ok  	wbp-portable	39.331s

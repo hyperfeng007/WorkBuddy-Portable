@@ -1,0 +1,6 @@
+go version go1.26.1 linux/amd64
+PASS: Linux vet
+PASS: Windows vet
+PASS: Windows test compilation (NOT execution)
+PASS: rebuild byte-identical
+7db663fb8ea400bebdea693f20dab234713628bc6cb426d44ee571e1ea48a783  ../WorkBuddy-Portable.exe

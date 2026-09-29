@@ -1,0 +1,8 @@
+Final UI/lifecycle source validation: WorkBuddy 1.0.2; adapter 1.0.1
+go version go1.26.1 linux/amd64
+v24.21.0
+PASS: Linux vet
+PASS: Windows vet
+PASS: Windows test compilation; NOT EXECUTED
+PASS: two builds byte-identical
+e33349af36fbfdc9ae59634928b2cff7cd8ca26e063ff50cc823f17a382dcbf4  ../WorkBuddy-Portable.exe

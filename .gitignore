@@ -1,0 +1,20 @@
+# Personal runtime, account state and network credentials must NEVER be committed.
+/Data/
+/Runtime/
+/Workspace/
+/portable.json
+/portable.json.new
+/*.exe
+/*.zip
+/*.zip.sha256
+*.log
+*.tmp
+*.test.exe
+.env
+.env.*
+!.env.example
+.git-credentials
+.netrc
+node_modules/
+.cache/
+source/*-tests.exe

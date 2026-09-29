@@ -1,0 +1,1 @@
+PASS: awaited ESM bootstrap, synchronous daemon-compatible network setup, Unicode paths, no pre-ready deadlock, host hooks suppressed, splash ignored, ready nonce correct

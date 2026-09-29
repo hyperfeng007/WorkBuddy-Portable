@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/hyperfeng007/WorkBuddy-Portable",
+  "launcher_version": "1.0.3",
+  "runtime_adapter_version": "1.0.1",
+  "archive_date": "2026-09-29",
+  "upstream_build": "国内版 5.6.2.39298511",
+  "original_package": "WorkBuddy-Portable-Windows-x64-v1.0.3.zip",
+  "original_zip_sha256": "3a371bd92ac48ab61864709b050afd29132325d71878e42abca175470c0ee8ea",
+  "original_executable": "WorkBuddy-Portable.exe",
+  "original_exe_sha256": "7db663fb8ea400bebdea693f20dab234713628bc6cb426d44ee571e1ea48a783",
+  "production_source": "byte-identical to the existing delivered ZIP; no new runtime changes",
+  "native_windows_tests": "compiled only, not executed",
+  "public_archive_scope": "latest launcher source, fixtures, documentation, tools and licenses; no user Data/Runtime/configuration/credentials",
+  "historical_releases": "not uploaded in this archive; historical test evidence remains clearly identified in docs"
+}
